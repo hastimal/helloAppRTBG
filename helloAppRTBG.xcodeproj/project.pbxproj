@@ -14,6 +14,10 @@
 		CE51A7F21B96585300F3BD67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE51A7F11B96585300F3BD67 /* Images.xcassets */; };
 		CE51A7F51B96585300F3BD67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE51A7F31B96585300F3BD67 /* LaunchScreen.xib */; };
 		CE51A8011B96585300F3BD67 /* helloAppRTBGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE51A8001B96585300F3BD67 /* helloAppRTBGTests.m */; };
+		CE51A80C1B96649300F3BD67 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = CE51A80B1B96649300F3BD67 /* ViewController2.m */; };
+		CE6C8A361B9B8DA8008FB8AE /* ios-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6C8A351B9B8DA8008FB8AE /* ios-logo.jpg */; };
+		CE6C8A3A1B9B91E6008FB8AE /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C8A391B9B91E6008FB8AE /* ViewController3.m */; };
+		CE6C8A3C1B9B9F4D008FB8AE /* tarakm.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6C8A3B1B9B9F4D008FB8AE /* tarakm.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		CE51A7FA1B96585300F3BD67 /* helloAppRTBGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloAppRTBGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE51A7FF1B96585300F3BD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE51A8001B96585300F3BD67 /* helloAppRTBGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloAppRTBGTests.m; sourceTree = "<group>"; };
+		CE51A80A1B96649300F3BD67 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		CE51A80B1B96649300F3BD67 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		CE6C8A351B9B8DA8008FB8AE /* ios-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ios-logo.jpg"; sourceTree = "<group>"; };
+		CE6C8A371B9B8EF3008FB8AE /* tarak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tarak.jpg; sourceTree = "<group>"; };
+		CE6C8A381B9B91E6008FB8AE /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		CE6C8A391B9B91E6008FB8AE /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		CE6C8A3B1B9B9F4D008FB8AE /* tarakm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarakm.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +92,18 @@
 		CE51A7E31B96585300F3BD67 /* helloAppRTBG */ = {
 			isa = PBXGroup;
 			children = (
+				CE6C8A351B9B8DA8008FB8AE /* ios-logo.jpg */,
 				CE51A7E81B96585300F3BD67 /* AppDelegate.h */,
 				CE51A7E91B96585300F3BD67 /* AppDelegate.m */,
+				CE6C8A371B9B8EF3008FB8AE /* tarak.jpg */,
+				CE6C8A3B1B9B9F4D008FB8AE /* tarakm.png */,
 				CE51A7EB1B96585300F3BD67 /* ViewController.h */,
 				CE51A7EC1B96585300F3BD67 /* ViewController.m */,
+				CE51A80A1B96649300F3BD67 /* ViewController2.h */,
+				CE51A80B1B96649300F3BD67 /* ViewController2.m */,
 				CE51A7EE1B96585300F3BD67 /* Main.storyboard */,
+				CE6C8A381B9B91E6008FB8AE /* ViewController3.h */,
+				CE6C8A391B9B91E6008FB8AE /* ViewController3.m */,
 				CE51A7F11B96585300F3BD67 /* Images.xcassets */,
 				CE51A7F31B96585300F3BD67 /* LaunchScreen.xib */,
 				CE51A7E41B96585300F3BD67 /* Supporting Files */,
@@ -199,9 +217,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6C8A361B9B8DA8008FB8AE /* ios-logo.jpg in Resources */,
 				CE51A7F01B96585300F3BD67 /* Main.storyboard in Resources */,
 				CE51A7F51B96585300F3BD67 /* LaunchScreen.xib in Resources */,
 				CE51A7F21B96585300F3BD67 /* Images.xcassets in Resources */,
+				CE6C8A3C1B9B9F4D008FB8AE /* tarakm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +240,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE51A7ED1B96585300F3BD67 /* ViewController.m in Sources */,
+				CE51A80C1B96649300F3BD67 /* ViewController2.m in Sources */,
 				CE51A7EA1B96585300F3BD67 /* AppDelegate.m in Sources */,
 				CE51A7E71B96585300F3BD67 /* main.m in Sources */,
+				CE6C8A3A1B9B91E6008FB8AE /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +440,7 @@
 				CE51A8061B96585300F3BD67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE51A8071B96585300F3BD67 /* Build configuration list for PBXNativeTarget "helloAppRTBGTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +449,7 @@
 				CE51A8091B96585300F3BD67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
